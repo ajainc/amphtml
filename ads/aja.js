@@ -24,6 +24,9 @@ export function aja(global, data) {
   validateData(data, ['asi']);
 
   const {document} = global;
+  global.__ASOT__ = {
+    renderStartAvailable: !!global.context.renderStart,
+  };
   const asi = data['asi'];
 
   const d = document.createElement('div');

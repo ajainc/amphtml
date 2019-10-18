@@ -264,6 +264,7 @@ const adConfig = jsonConfiguration({
       'https://cdn.as.amanad.adtdp.com/sdk/asot-v2.js',
     ],
     preconnect: ['https://ad.as.amanad.adtdp.com'],
+    renderStartImplemented: true,
   },
 
   'appvador': {
